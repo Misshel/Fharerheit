@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    table, th, td {
+        border: 1px solid black;
+        }
+  </style>
+</head>
+<body>
+  <table style="width:65%">
+    <tr>
+      <td>Fahrenheit</td>
+      <td>
+        <form oninput="result.value=convertirCelsius();">
+            <input type="text" name="Celsius" id="Celsius" required />
+            <output name="convertidor"></output>
+        </form>
+      </td>
+      <td>
+        <button type="button" onclick="convertirCelsius(); return false">Convert to Celsius</button>
+      </td>
+    </tr>
+    <tr>
+      <td>Celsius</td>
+      <td>
+        <form oninput="result.value=convertirCelsius();">
+            <input type="text" name="Fahrenheit" id="Fahrenheit" required />
+            <output name="result" id=></output>
+        </form>
+      </td>
+      <td>
+        <button type="button" onclick="convertirCelsius(); return false">Convert to Fahrenheit</button>
+      </td>
+    </tr>
+  </<table>
+    <script type="text/javascript" src="C:\Users\LABORATORIA 003le\Desktop\Practica_en_Clase\js.js"></script>
+</body>
+</html>
